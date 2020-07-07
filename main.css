@@ -329,13 +329,13 @@ h1 {
 
  .sun-img {
   width: 3204.6px;
-  margin-top: 2040.089px;
+  margin-top: 1240.089px;
 }
 
  /* MERCURY */
 .mercury {
   /* add half the sun - 545 and subtract half of mercury - 1.9 + the distance between them 55,141  */
-  margin-left: 55684.1px;
+  margin-left: 55690.1px;
   margin-top: .2em;
   color: white;
  }
@@ -343,7 +343,7 @@ h1 {
 .mercury-img {
   margin-left: 55684.1px;
   width: 3.8px;
-  margin-top: 2040.089px;
+  margin-top: 140.089px;
   border: solid red 2px;
   padding: 10px;
 }
@@ -352,7 +352,7 @@ h1 {
  /* VENUS */
  .venus {
   /* add half the sun - 545 and sub half of venus - 4.75 + the distance between them 85,484.297 px  */
-  margin-left: 86024.547px;
+  margin-left: 86019.547px;
   margin-top: 1em;
   color: white;
  }
@@ -360,7 +360,7 @@ h1 {
 .venus-img {
   margin-left: 86024.547px;
   width: 9.5px;
-  margin-top: 2040.089px;
+  margin-top: 140.089px;
   /* border: solid red 1px;
   padding: 2px; */
 }
@@ -369,7 +369,7 @@ h1 {
 /* EARTH */
 .earth {
   /* add half the sun - 545 and sub half of earth - 5 + the distance between them 119,270.59  */
-  margin-left: 119810.59px;
+  margin-left: 119806.59px;
   margin-top: 1em;
   color: white;
  }
@@ -377,7 +377,7 @@ h1 {
 .earth-img {
   margin-left: 119810.59px;
   width: 10px;
-  margin-top: 2040.089px;
+  margin-top: 140.089px;
   /* border: solid red 1px;
   padding: 2px; */
 }
@@ -394,7 +394,7 @@ h1 {
 .mars-img {
   margin-left: 163797.938px;
   width: 5.3px;
-  margin-top: 2040.089px;
+  margin-top: 140.089px;
   border: solid red 1px;
   padding: 2px;
 }
