@@ -1,6 +1,6 @@
-var bezos = document.getElementById('bezos');
-var bezos_counter = document.getElementById('bezos-counter');
-var bezosCounterStart = document.getElementById('bezos-counter-start');
+var venus = document.getElementById('venus');
+var venus_counter = document.getElementById('venus-counter');
+var venusCounterStart = document.getElementById('venus-counter-start');
 
 var four_hundred = document.getElementById('four-hundred');
 var four_hundred_counter = document.getElementById('four-hundred-counter');
@@ -13,9 +13,9 @@ var babies = document.getElementById('babies-wrapper');
 var baby_counter = document.getElementById('baby-counter');
 
 var thousand = new Intl.NumberFormat('en-US')
-var money = new Intl.NumberFormat('en-US', {
-  style: 'currency',
-  currency: 'USD',
+var distance = new Intl.NumberFormat('en-US', {
+  style: 'length',
+  currency: 'Kilometers',
   minimumFractionDigits: 0,
   maximumFractionDigits: 0,
 });
@@ -77,14 +77,14 @@ babies.addEventListener('scroll', function(){
 })
 
 //Todo: stop executing once scrolled past
-function update_wealth_counter() {
-  if (bezos_viewable()) {
-    if (bezos_counter_viewable()) {
-      let wealth = (window.scrollX - bezos.offsetLeft + 175) * 500000;
-      bezos_counter.innerHTML = (wealth < 139000000000) ? money.format(wealth) : "$139,000,000,000.00";
+function update_distance_counter() {
+  if (venus_viewable()) {
+    if (venus_counter_viewable()) {
+      let distance_between = (window.scrollX - venus.offsetLeft + 545);
+      venus_counter.innerHTML = (distance_between < 119,270) ? distance.format(distance_between) : "119,270 km";
     }
     else {
-      bezos_counter.innerHTML = '';
+      venus_counter.innerHTML = '';
     }
   }
   else if (four_hundred_viewable()) {
@@ -96,11 +96,11 @@ function update_wealth_counter() {
       four_hundred_counter.innerHTML = '';
     }
   }
-  function bezos_viewable() {
-    return window.scrollX < bezos.offsetLeft + bezos.offsetWidth + 100;
+  function venus_viewable() {
+    return window.scrollX < venus.offsetLeft + venus.offsetWidth + 100;
   }
-  function bezos_counter_viewable() {
-    return bezosCounterStart.offsetLeft - window.scrollX < (window.innerWidth);
+  function venus_counter_viewable() {
+    return venusCounterStart.offsetLeft - window.scrollX < (window.innerWidth);
   }
   function four_hundred_viewable() {
     return window.scrollX < four_hundred.offsetLeft + four_hundred.offsetWidth + 100;
