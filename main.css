@@ -261,12 +261,16 @@ h1 {
 .flex {
   display: flex;
 }
-.infobox.first {
+.infobox.first-earth{
   margin-left: 88024.547px;
 }
 
-.infobox.second {
+.infobox.second-earth{
   margin-left: 118024.547px;
+}
+
+.infobox.third-earth{
+  margin-left: 138024.547px;
 }
 .infobox.first .title {
   max-width: 390px;
