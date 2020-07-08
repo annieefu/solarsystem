@@ -261,8 +261,14 @@ h1 {
 .flex {
   display: flex;
 }
+
+.infobox.first-venus{
+  margin-left: 56000.547px;
+  
+}
 .infobox.first-earth{
   margin-left: 88024.547px;
+  
 }
 
 .infobox.second-earth{
@@ -272,28 +278,11 @@ h1 {
 .infobox.third-earth{
   margin-left: 138024.547px;
 }
-.infobox.first .title {
-  max-width: 390px;
+
+#earth-to-moon{
+  max-width: 750px;
 }
-.infobox.coming-up .title,
-.infobox.five-pixels .title {
-  max-width: 280px;
-}
-.infobox-half {
-  margin-left: 4000px;
-}
-.infobox-quarter {
-  margin-left: 2000px;
-}
-.infobox-close {
-  margin-left: 500px;
-}
-.sub-infobox {
-  margin: 0 40px;
-}
-.sub-infobox .title {
-  width: 430px;
-}
+
 .midtext-wrapper {
   display: flex;
   justify-content: space-around;
@@ -591,9 +580,7 @@ h1 {
   background-image: url('img/person.svg');
   background-size: 20px;
 }
-.people.first {
-  margin-top: -1040px;
-}
+
 .people-wrapper-outer h2 {
   font-size: 16px;
   font-weight: normal;
