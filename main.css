@@ -194,10 +194,14 @@ h1 {
   color: black;
   margin-top: 0;
 }
-.text-infobox .title,
-.infobox .chart {
+
+
+
+.text-infobox2 .title,
+.infobox2 .chart {
   max-width: 450px;
 }
+
 .infobox .chart img {
   max-width: 100%;
 }
@@ -230,11 +234,25 @@ h1 {
   left: 50%;
   transform: translate(-50%);
 }
+
+.intro.text-infobox{
+  position: sticky;
+  left: 50%;
+  
+  transform: translate(-50%);
+}
+
+.text-infobox2 .title {
+  position: sticky;
+  left: 50%;
+  transform: translate(-50%);
+}
 @media (max-width: 450px) {
-  .infobox.line-chart .chart-outer {
+  /* .infobox.line-chart .chart-outer {
     left: 5px;
     width: 98vw;
-  }
+  } */
+/* 
   .infobox .square,
   .infobox .title-square-wrapper,
   .infobox .piechart,
@@ -243,30 +261,54 @@ h1 {
   .infobox .title {
     left: 10px;
     transform: none;
-  }
+  } */
 }
-.sub-infobox .square,
+/* .sub-infobox .square,
 .sub-infobox .midtext,
 .sub-infobox .title {
   position: static;
-}
+} */
 .infobox {
   z-index: 1;
-  margin-left: 6000px;
+  margin-left: 1200px;
   width: 12000px;
 }
-.four-hundred .infobox {
+
+.infobox-xs {
+  z-index: 1;
+  margin-left: 1000px;
+  width: 500px;
+}
+
+.infobox-s {
+  z-index: 1;
+  margin-left: 1000px;
   width: 4000px;
 }
+
+.infobox-lg {
+  z-index: 1;
+  margin-left: 1000px;
+  width: 8000px;
+}
+
 .flex {
   display: flex;
 }
 .infobox.first {
-  margin-left: 88024.547px;
+  margin-left: 94024.547px;
+}
+
+.infobox.first {
+  margin-left: 94024.547px;
+}
+
+.earthtomoon-img{
+  margin-left: 94024.547
 }
 
 .infobox.second {
-  margin-left: 118024.547px;
+  margin-left: 124024.547px;
 }
 .infobox.first .title {
   max-width: 390px;
@@ -314,6 +356,22 @@ h1 {
 
 
 
+/* .intro {
+  margin-left: 400px; 
+  margin-top: .2em;
+  color: white;
+  text-align: left;
+  max-width: 600px;
+ }  */
+
+
+
+ .intro {
+   margin-left:1000px;
+   margin-top: .2em;
+ }
+
+
 
 /* SUN */
 
@@ -321,30 +379,38 @@ h1 {
 
 /* SUN */
 /* 1090 px (inside) */
-.sun {
-  margin-left: 1602.3px;
-  margin-top: .2em;
 
+
+
+/* JULY 11 ADDED 1000 PIXELS TO EVERYTHING TO MAKE ROOM FOR INTRODUCTION */
+
+/* 1602 to 2602 */
+.sun {
+  margin-left: 2585.3px;
+  margin-top: -200px;
   color: white;
  }
 
  .sun-img {
+   margin-left: 1000px;
   width: 3204.6px;
-  margin-top: 2040.089px;
+  margin-top: 1140.089px;
 }
 
  /* MERCURY */
 .mercury {
   /* add half the sun - 545 and subtract half of mercury - 1.9 + the distance between them 55,141  */
-  margin-left: 55684.1px;
+/* 55 to 56 */
+
+  margin-left: 56684.1px;
   margin-top: .2em;
   color: white;
  }
 
 .mercury-img {
-  margin-left: 55684.1px;
+  margin-left: 56684.1px;
   width: 3.8px;
-  margin-top: 2040.089px;
+  margin-top: 240.089px;
   border: solid red 2px;
   padding: 10px;
 }
@@ -353,15 +419,18 @@ h1 {
  /* VENUS */
  .venus {
   /* add half the sun - 545 and sub half of venus - 4.75 + the distance between them 85,484.297 px  */
-  margin-left: 86024.547px;
+
+  /* 86 to 87 */
+
+  margin-left: 87024.547px;
   margin-top: 1em;
   color: white;
  }
 
 .venus-img {
-  margin-left: 86024.547px;
+  margin-left: 87024.547px;
   width: 9.5px;
-  margin-top: 2040.089px;
+  margin-top: 340.089px;
   /* border: solid red 1px;
   padding: 2px; */
 }
@@ -370,13 +439,15 @@ h1 {
 /* EARTH */
 .earth {
   /* add half the sun - 545 and sub half of earth - 5 + the distance between them 119,270.59  */
-  margin-left: 119810.59px;
+
+  /* 119 to 120 */
+  margin-left: 120810.59px;
   margin-top: 1em;
   color: white;
  }
 
 .earth-img {
-  margin-left: 119810.59px;
+  margin-left: 120810.59px;
   width: 10px;
   margin-top: 2040.089px;
   /* border: solid red 1px;
@@ -387,15 +458,17 @@ h1 {
 /* MARS */
 .mars {
   /* add half the sun - 545 and sub half of mars - 2.65 + the distance between them 163255.588 px  */
-  margin-left: 163797.938px;
+
+  /* a63 to 164 */
+  margin-left: 164797.938px;
   margin-top: 1em;
   color: white;
  }
 
 .mars-img {
-  margin-left: 163797.938px;
+  margin-left: 164797.938px;
   width: 5.3px;
-  margin-top: 2040.089px;
+  margin-top: 340.089px;
   border: solid red 1px;
   padding: 2px;
 }
